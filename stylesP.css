@@ -1,0 +1,101 @@
+body{
+
+ background-image: url(img/fondo.jpg);
+ background-size: auto;
+
+}
+
+#Timg{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Timg img{
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Timg img:hover{
+    transform: rotate(180deg);
+}
+
+
+.ubicacion:hover, .email:hover, .contacto:hover{
+ 
+    
+    filter: opacity(.3);
+    transform: scale(0.9);
+}
+
+.ubicacionimg, .emailimg, .contactoimg{
+ box-shadow: 2px 2px 4px black;
+}
+
+.ubicacion, .email, .contacto{
+    padding: 20px;
+    margin:20px;
+}
+#lSistemas{
+   display: flex;
+    justify-content: center;
+align-items: center;
+
+   padding: 10px;
+}
+#lSistemas img{
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    margin: auto;
+    box-shadow: 2px 3px 3px white;
+}
+
+#lSistemas img:hover{
+    
+    transform: scale(0.9);
+    filter: opacity(.5);
+}
+
+.imgITA{
+    display: flex;
+    justify-content: center;
+align-items: center;
+    
+}
+.imgITA img{
+    display: list-item;
+  object-fit: cover;
+  border-radius: 1px;
+  margin: 15px;
+  
+}
+
+.containerIMG{
+    display: flex;
+    
+    width: 100%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+}
+.containerIMG img{
+   
+    margin-left: 20px;
+    margin-right:50px;
+}
+
+p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+

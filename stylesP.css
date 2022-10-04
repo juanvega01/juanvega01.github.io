@@ -98,4 +98,43 @@ p{
     margin-right: 200px;
 
 }
+@media (min-width:400px) and (max-width:1000px){
+    p{
+        font-size: 55px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+    
+    }
+    
+    .imgITA{
+        display: block;
+        justify-content: center;
+    align-items: center;
+        
+    }
+    .imgITA img{
+        display: list-item;
+      
+      
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .imgITA img{
+        width: 100%;
+        height: auto;
+      }
+
+    @supports(object-fit: cover){
+        .imgITA img{
+          height: 100%;
+          object-fit: cover;
+          object-position: center center;
+        }
+    }
+
+}
 
